@@ -1,0 +1,23 @@
+openapi: 3.0.0
+info:
+  title: 占いAPI
+  version: 1.0.0
+  description: 今日の運勢を返す、こちゃんお手製の占いAPIです。
+paths:
+  /fortune:
+    get:
+      summary: 今日の運勢を取得する
+      responses:
+        "200":
+          description: 占いの結果が返ってくる
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: string
+                    example: 大吉
+                  message:
+                    type: string
+                    example: 今日はいい日になりそう！

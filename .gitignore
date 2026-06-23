@@ -1,0 +1,9 @@
+# Python の仮想環境
+venv/
+
+# Python が自動で作るキャッシュファイル
+__pycache__/
+*.pyc
+
+# Mac が勝手に作る隠しファイル
+.DS_Store
