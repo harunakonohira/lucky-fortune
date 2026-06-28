@@ -7,3 +7,6 @@ __pycache__/
 
 # Mac が勝手に作る隠しファイル
 .DS_Store
+
+# AWSのキーなど、秘密の情報（絶対にGitHubに上げない）
+.env
