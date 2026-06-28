@@ -60,3 +60,47 @@ h1 {
   color: #7a7a7a;
   margin: 0;
 }
+
+#history-button {
+  font-size: 14px;
+  color: #b18cdb;
+  background: transparent;
+  border: 2px solid #b18cdb;
+  border-radius: 999px;
+  padding: 8px 24px;
+  cursor: pointer;
+  margin-top: 24px;
+}
+
+#history-button:hover {
+  background: #f5eeff;
+}
+
+#history {
+  margin-top: 24px;
+  text-align: left;
+}
+
+#history h2 {
+  font-size: 16px;
+  color: #6b5b95;
+  text-align: center;
+}
+
+.history-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-bottom: 1px solid #f0e8f8;
+  font-size: 14px;
+}
+
+.history-result {
+  font-weight: bold;
+  color: #d96fa0;
+}
+
+.history-date {
+  color: #aaa;
+  font-size: 12px;
+}
